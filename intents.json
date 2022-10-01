@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+   
+   
+   
+    
+    {
+      "tag": "question",
+      "patterns": [
+        "What is your name",
+        "What's your name",
+        "Who are you"
+      
+      ],
+      "responses": [
+        "Nielit AI Assistance"
+      ]
+    },
+    {
+      "tag": "director_name",
+      "patterns": [
+        "Director Name",
+        "What is the name of Nielit Director?",
+        "name of Nielit Director",
+        "Nielit Director",
+        "Director"
+
+     
+      ],
+      "responses": [
+        "T.Gunendra Singh",
+        "T.Gunendra Sing is the director of nielit zuangtui aizawl"
+   
+      ]
+    },
+    {
+      "tag": "mca__coordinator_name",
+      "patterns": [
+        "MCA co ordinator Name",
+        "What is the name of MCA co ordinato?",
+        "name of MCA co ordinator",
+        "MCA co ordinator"
+        
+
+     
+      ],
+      "responses": [
+        "Vanlalhmangaiha Khiangte",
+        "Vanlalhmangaiha Khiangte is the co ordinator of MCA"
+   
+      ]
+    },
+    {
+      "tag": "bca__coordinator_name",
+      "patterns": [
+        "bca co ordinator Name",
+        "What is the name of bca co ordinato?",
+        "name of bca co ordinator",
+        "bca co ordinator"
+        
+
+     
+      ],
+      "responses": [
+        "Sir Hruaia",
+        "Sir Hruaia is the co ordinator of BCA"
+   
+      ]
+    }
+  ]
+}
